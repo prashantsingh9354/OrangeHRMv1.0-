@@ -16,7 +16,7 @@ public class TC001_LoginTest extends BaseClass {
 			Thread.sleep(1000);
 			hp.Username("Admin");
 			Thread.sleep(1000);
-			hp.Password("admin");
+			hp.Password("admin123");
 			hp.login();
 			
 			DashBoard db=new DashBoard(driver);

@@ -12,8 +12,15 @@ public class PIMDash extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Add Employee']")
 	WebElement btn_AddEmployee;
 	
+	@FindBy(xpath="//a[normalize-space()='Employee List']")	
+	WebElement btn_employeelist;
+	
 	public void AddEmployee() {
 		btn_AddEmployee.click();
+	}
+	
+	public void EmployeeList() {
+		btn_employeelist.click();
 	}
 
 }

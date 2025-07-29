@@ -33,6 +33,10 @@ public class TC002_AddingNewEmployee extends BaseClass{
 		addemp.LastName("kennedy");
 		//Thread.sleep(1000);
 		addemp.Save();
+		//Thread.sleep(1000);
+		addemp.confirm();
+		
+		
 		
 			
 	}

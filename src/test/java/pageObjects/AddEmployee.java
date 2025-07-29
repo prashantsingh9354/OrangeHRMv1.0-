@@ -22,6 +22,12 @@ public class AddEmployee extends BasePage{
 	@FindBy(xpath="//button[normalize-space()='Save']")
 	WebElement btn_Save;
 	
+	@FindBy(xpath="//div[@class='oxd-form-actions']//button[@type='submit']")
+	WebElement btn_confirmsave;
+	
+	@FindBy(xpath="//label[normalize-space()='Male']")
+	WebElement radio_male;
+	
 	public void FirstName(String Fname) {
 		input_Firstname.sendKeys(Fname);
 	}
@@ -38,5 +44,12 @@ public class AddEmployee extends BasePage{
 		btn_Save.click();
 	}
 	
+	public void confirm() {
+		btn_confirmsave.click();
+	}
+	
+	public void male() {
+		radio_male.click();
+	}
 
 }
