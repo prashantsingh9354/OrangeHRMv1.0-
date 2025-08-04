@@ -22,7 +22,7 @@ public class AddEmployee extends BasePage{
 	@FindBy(xpath="//button[normalize-space()='Save']")
 	WebElement btn_Save;
 	
-	@FindBy(xpath="//div[@class='oxd-form-actions']//button[@type='submit']")
+	@FindBy(xpath="//form[@class='oxd-form']//div[4]//button")
 	WebElement btn_confirmsave;
 	
 	@FindBy(xpath="//label[normalize-space()='Male']")

@@ -28,12 +28,12 @@ public class TC002_AddingNewEmployee extends BaseClass{
 		AddEmployee addemp=new AddEmployee(driver);
 		addemp.FirstName("John");
 		//Thread.sleep(1000);
-		addemp.MiddleName("micheal");
+		addemp.MiddleName("M");
 		//Thread.sleep(1000);
 		addemp.LastName("kennedy");
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		addemp.Save();
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		addemp.confirm();
 		
 		

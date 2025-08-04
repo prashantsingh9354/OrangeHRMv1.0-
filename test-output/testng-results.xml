@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T16:09:48 IST" name="Default suite" finished-at="2025-07-29T16:09:59 IST" duration-ms="11304">
+  <suite started-at="2025-08-04T14:51:10 IST" name="Default suite" finished-at="2025-08-04T14:51:42 IST" duration-ms="32165">
     <groups>
     </groups>
-    <test started-at="2025-07-29T16:09:48 IST" name="Default test" finished-at="2025-07-29T16:09:59 IST" duration-ms="11304">
-      <class name="testCases.TC003_SearchingEmployeeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_SearchingEmployeeTest@33bc72d1]" started-at="2025-07-29T16:09:48 IST" name="setup" finished-at="2025-07-29T16:09:53 IST" duration-ms="4709" status="PASS">
+    <test started-at="2025-08-04T14:51:10 IST" name="Default test" finished-at="2025-08-04T14:51:42 IST" duration-ms="32165">
+      <class name="testCases.TC004_DeleteEmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_DeleteEmployeeTest@33bc72d1]" started-at="2025-08-04T14:51:10 IST" name="setup" finished-at="2025-08-04T14:51:16 IST" duration-ms="6057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SearchingEmployee()[pri:0, instance:testCases.TC003_SearchingEmployeeTest@33bc72d1]" started-at="2025-07-29T16:09:53 IST" name="SearchingEmployee" finished-at="2025-07-29T16:09:59 IST" duration-ms="6279" status="PASS">
+        <test-method signature="deleteEmployeeTest()[pri:0, instance:testCases.TC004_DeleteEmployeeTest@33bc72d1]" started-at="2025-08-04T14:51:16 IST" name="deleteEmployeeTest" finished-at="2025-08-04T14:51:41 IST" duration-ms="25481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchingEmployee -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_SearchingEmployeeTest@33bc72d1]" started-at="2025-07-29T16:09:59 IST" name="teardown" finished-at="2025-07-29T16:09:59 IST" duration-ms="250" status="PASS">
+        </test-method> <!-- deleteEmployeeTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_DeleteEmployeeTest@33bc72d1]" started-at="2025-08-04T14:51:41 IST" name="teardown" finished-at="2025-08-04T14:51:42 IST" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC003_SearchingEmployeeTest -->
+      </class> <!-- testCases.TC004_DeleteEmployeeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

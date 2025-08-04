@@ -20,11 +20,25 @@ public class EmployeeList extends BasePage {
 	@FindBy(xpath="//div[@class='oxd-table-body']//div[@role='row']")
 	List<WebElement> EmployeeNames;
 	
+	@FindBy(xpath="//button[@class='oxd-icon-button oxd-table-cell-action-space']//i[@class='oxd-icon bi-trash']")
+	WebElement btn_delete;
+		
+	@FindBy(xpath="//button[normalize-space()='Yes, Delete']")
+	WebElement btn_comfirmdelete;
+		
 	public void SearchEmployee(String Ename) {
+		input_employeename.clear();
 		input_employeename.sendKeys(Ename);
 		btn_search.click();
 	}
+	
+	public void DeleteEmployee() {
+		btn_delete.click();
+		btn_comfirmdelete.click();
 		
+	}
+		
+	
 	public boolean isEmployeeFound(String EName) {
         for (WebElement row : EmployeeNames) {
             if (row.getText().contains(EName)) {
